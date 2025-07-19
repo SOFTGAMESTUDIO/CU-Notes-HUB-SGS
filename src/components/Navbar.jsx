@@ -104,10 +104,14 @@ export default function Navbar() {
         <div className="relative flex items-center justify-between px-4 md:px-8 py-4">
           {/* Logo Section */}
           <div className="flex items-center space-x-3 group">
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center items-center  ">
+              <div className='flex items-center space-x-2 mb-1'>
+<img className='w-10 rounded-full' src="../../public/ing.png" alt="" />
               <h1 className="text-xl font-bold bg-gradient-to-r from-gray-900 via-blue-700 to-purple-700 bg-clip-text text-transparent">
                 CU STUDY HUB
               </h1>
+              </div>
+              
               <div className="h-0.5 w-0 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-500" />
             </div>
           </div>
