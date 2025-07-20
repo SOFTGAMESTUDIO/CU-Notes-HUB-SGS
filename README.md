@@ -124,15 +124,3 @@ MIT. See [LICENSE](LICENSE).
 
 Open an issue or message via GitHub.
 
-```
-
----
-
-This version enhances clarity, navigation, collaboration, and professionalism. Let me know if you’d like badges added or help integrating automated stats or other visuals!
-::contentReference[oaicite:24]{index=24}
-```
-
-[1]: https://github.com/Vnjvibhash/CU-Notes?utm_source=chatgpt.com "Vnjvibhash/CU-Notes - GitHub"
-[2]: https://github.com/tech-notes-hub/tech-notes?utm_source=chatgpt.com "Tech Notes Hub: All-in-one technical notes & code snippets - GitHub"
-[3]: https://github.com/lindvalllab/MedSlice?utm_source=chatgpt.com "lindvalllab/MedSlice: A sectioning tool for clinical notes ... - GitHub"
-[4]: https://github.com/anuraghazra/github-readme-stats?utm_source=chatgpt.com "GitHub - anuraghazra/github-readme-stats: :zap: Dynamically ..."
