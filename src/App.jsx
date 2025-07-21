@@ -11,6 +11,9 @@ import TermsAndConditions from './pages/LeagleDocuments.jsx/TermsAndConditions';
 import AboutUs from './pages/LeagleDocuments.jsx/AbouUs';
 import NotFoundPage from './Nopage';
 import ScrollToTop from './ScrollToTop';
+import NoteDetail from './pages/Notes/Notesview';
+import CUDevelopers from './pages/Developer/Developer';
+import SupportUs from './pages/Developer/SuportUs';
 
 
 export default function App() {
@@ -23,12 +26,15 @@ export default function App() {
            <Route path="/home" element={<Home/>} />
           <Route path="*" element={<NotFoundPage/>} />
            <Route path="/AboutUS" element={<AboutUs/>} />
+            <Route path="/SuportUS" element={<SupportUs/>} />
           <Route path="/ContactUS" element={<ContactPage/>} />
            <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
            <Route path="/TermsAndConditions" element={<TermsAndConditions/>} />
           <Route path="/Login" element={<UserLogin/>} />
           <Route path="/Notes" element={<Notes/>} />
+          <Route path="/Notes/:id" element={<NoteDetail/>} />
           <Route path="/Upload" element={<UploadNotes/>} />
+           <Route path="/Developers" element={<CUDevelopers/>} />
           <Route path="/Admin" element={<ProtectedRouteForAdmin><Admin/></ProtectedRouteForAdmin>} />
         </Routes>
       </Router>

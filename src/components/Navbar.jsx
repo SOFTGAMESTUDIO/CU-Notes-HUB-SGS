@@ -106,7 +106,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-3 group">
             <div className="flex flex-col justify-center items-center  ">
               <div className='flex items-center space-x-2 mb-1'>
-<img className='w-10 rounded-full' src="../../public/ing.png" alt="" />
+<img className='w-10 rounded-full' src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/ing.png?alt=media&token=30ec48dc-f618-4d39-a69c-2aaaac7f7269" alt="" />
               <h1 className="text-xl font-bold bg-gradient-to-r from-gray-900 via-blue-700 to-purple-700 bg-clip-text text-transparent">
                 CU STUDY HUB
               </h1>

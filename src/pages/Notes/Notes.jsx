@@ -14,6 +14,7 @@ import {
 } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
 export default function Notes() {
   const [notes, setNotes] = useState([]);
@@ -28,6 +29,8 @@ export default function Notes() {
     sort: 'newest'
   });
   const [showMobileFilters, setShowMobileFilters] = useState(false);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchNotes = async () => {
@@ -630,9 +633,18 @@ export default function Notes() {
                     </div>
                   </div>
 
-                  <button
+                  
+
+                  {/* <button
                     className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 sm:py-2.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-sm sm:text-base"
                     onClick={() => window.open(note.fileUrl, '_blank')}
+                  >
+                    <FaFilePdf />
+                    <span>View Notes</span>
+                  </button> */}
+                   <button
+                    className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 sm:py-2.5 rounded-lg font-medium hover:opacity-90 transition-opacity text-sm sm:text-base"
+                    onClick={() =>navigate(`/Notes/${note.id}`)}
                   >
                     <FaFilePdf />
                     <span>View Notes</span>

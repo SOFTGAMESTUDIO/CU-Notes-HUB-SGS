@@ -56,9 +56,8 @@ Connect with students and educators from CU and beyond.
             &copy; {currentYear} CU STUDY HUB | Developed by Soft Game Studio 
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-600 hover:text-blue-600">Help Center</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">Status</a>
-            <Link to="/admin/login" className="text-gray-600 hover:text-blue-600">Admin</Link>
+            <a href="/Developers" className="text-gray-600 hover:text-blue-600">Developers</a>
+            <a href="/SuportUS" className="text-gray-600 hover:text-blue-600">Suport US </a>
           </div>
         </div>
       </div>
